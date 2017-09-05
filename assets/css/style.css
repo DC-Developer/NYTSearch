@@ -1,0 +1,24 @@
+#newButton{
+    width: 100%;
+
+}
+#newDiv{
+    width: 100%;
+    height: 110px;
+    background: #efefef;
+    border-radius: 25px;
+    padding: 20px;
+    display: inline-block;
+}
+#numDiv{
+    display: inline;
+    width: 25px;
+    height: 25px;
+    background: rgb(76, 76, 248);
+    color: white;
+    font-weight: bold;
+}
+#newLink{
+    display: inline;
+
+}
