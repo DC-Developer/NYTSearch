@@ -17,8 +17,18 @@
     background: rgb(76, 76, 248);
     color: white;
     font-weight: bold;
+    font-size: 24px;
+    padding: 3px 6px 3px 6px;
 }
 #newLink{
     display: inline;
-
+    font-size: 26px;
+    font-weight: bold;
+    color:rgb(76, 76, 248);
+    padding-left: 20px;
+}
+#author{
+    font-weight: bold;
+    color: rgb(76, 76, 248);
+    
 }

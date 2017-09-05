@@ -40,10 +40,12 @@ $("#searchButton").on("click", function(event){
 
         for(i=0; i < recordNum; i++){
             var count = i + 1;
+            var author = result.response.docs[i].byline.original;
             var linkText = result.response.docs[i].headline.main;
             var siteLink = result.response.docs[i].web_url;
             var newDiv = $("<div id ='newDiv'>");
             var num = $("<div id='numDiv'>").text(count);
+            var name = $("<p id ='author'>").text(author);
             var link = $('<a>',{
                     text: linkText,
                     id: 'newLink', // <-- notice I replaced id with class
@@ -57,6 +59,7 @@ $("#searchButton").on("click", function(event){
             
             newDiv.append(num);
             newDiv.append(link);
+            newDiv.append(name);
             $("#topArticles").append(newDiv);
         }
 
