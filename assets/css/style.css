@@ -51,3 +51,18 @@
     display:inline;
     font-size: 
 }
+
+#articlesDiv span{
+    color: white;   
+    font-weight: bold;
+}
+#searchDiv span{
+    color: white;
+    font-weight: bold;
+
+}
+h1{
+    color: white;
+    text-align: center;
+
+}
