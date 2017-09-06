@@ -1,5 +1,5 @@
 $(document).ready(function(){
-
+    
 $("#searchButton").on("click", function(event){
     //stop the button from refreshing the page on click
     event.preventDefault();
@@ -37,10 +37,17 @@ $("#searchButton").on("click", function(event){
       url: url,
       method: 'GET',
     }).done(function(result) {
-
+        $("#topArticles").empty();
         for(i=0; i < recordNum; i++){
             var count = i + 1;
+            
+            if(result.response.docs[i].byline.original === undefined){
+                console.log("not defined");
+
+            }
             var author = result.response.docs[i].byline.original;
+            
+            
             var linkText = result.response.docs[i].headline.main;
             var siteLink = result.response.docs[i].web_url;
             var newDiv = $("<div id ='newDiv'>");
