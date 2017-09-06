@@ -33,6 +33,10 @@
     display: inline;
     
 }
+#newLink:hover{
+   color: rgba(105, 0, 105, 0.60);
+
+}
 #author{
     font-weight: bold;
     color: rgb(80, 79, 79);
