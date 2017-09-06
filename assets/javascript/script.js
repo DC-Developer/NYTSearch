@@ -40,11 +40,6 @@ $("#searchButton").on("click", function(event){
         $("#topArticles").empty();
         for(i=0; i < recordNum; i++){
             var count = i + 1;
-            
-            if(result.response.docs[i].byline.original === undefined){
-                console.log("not defined");
-
-            }
             var author = result.response.docs[i].byline.original;
             
             
@@ -69,8 +64,6 @@ $("#searchButton").on("click", function(event){
             newDiv.append(name);
             $("#topArticles").append(newDiv);
         }
-
-
 
       console.log(result);
     }).fail(function(err) {
