@@ -77,11 +77,12 @@
 #searchButton{
     background-color: rgb(80, 79, 79);
     border-color: white; 
-
+    font-weight: bold;
 }
 #clear{
     background-color: rgb(80, 79, 79);
     border-color: white; 
+    font-weight: bold;
 }
 h1{
     color: white;
