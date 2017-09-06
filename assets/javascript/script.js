@@ -82,8 +82,6 @@ $("#clear").on("click", function(){
 
 
 
-
-
 });
 
 

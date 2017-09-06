@@ -63,8 +63,11 @@
 #searchDiv span{
     color: white;
     font-weight: bold;
-    
-
+        
+}
+.form-group{
+    width: 95%;
+    margin: auto;
 }
 .navbar{
     border-top-left-radius: 8px;
@@ -78,15 +81,45 @@
     background-color: rgb(80, 79, 79);
     border-color: white; 
     font-weight: bold;
+    margin-left: 28px;
 }
 #clear{
     background-color: rgb(80, 79, 79);
     border-color: white; 
     font-weight: bold;
+
 }
 h1{
     color: white;
     text-align: center;
 
 }
+form{
+    
 
+}
+p{
+    font-weight: bold;
+    padding-left: 10px;
+    
+}
+textarea{
+    margin-bottom: 15px;
+
+}
+select{
+    margin-bottom: 15px;
+
+}
+label{
+    margin-bottom: 15px;
+    height: 20px;
+}
+input{
+    margin-bottom: 15px;
+
+}
+button:hover{
+    opacity: 0.5;
+    
+}
