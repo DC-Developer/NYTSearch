@@ -75,8 +75,7 @@ $("#searchButton").on("click", function(event){
 $("#clear").on("click", function(){
     
     $("#topArticles").empty();
-    
-   
+    $("#searchTerm").val("");
     $("#startYear").empty();
     $("#endYear").empty();
 });
